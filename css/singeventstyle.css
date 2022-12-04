@@ -1,0 +1,324 @@
+#event1 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/worldcup-640x320.png") no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event1:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#event2 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/Cards/1659988293_artboard-1-16.png") no-repeat center
+      center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event2:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#event3 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/Cards/1660143871_artboard-1-1.png") no-repeat center
+      center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event3:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#event4 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/Cards/1659988293_artboard-1-16.png") no-repeat center
+      center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event4:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#event5 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/Cards/1664529343_artboard-1-3-1-.png") no-repeat
+      center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event5:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#event6 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/Cards/1666868526_211106-printworks-ellumaudio-jakedavis-atjakehilipdavis-5212.jpg")
+      no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event6:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#event7 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/Cards/221022-thebeams-stephanbodzin-jakedavis-atjakephilipdavis-6608.jpg")
+      no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event7:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#event8 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/Cards/400x300-191116-printworks-buggedout-jakedavis-athungryvisuals-3966-1-.png")
+      no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event8:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#event9 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Events/Cards/400x300-211120-printworks-exhale-rob-jones-athirobjones-mgl2923.png")
+      no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#event9:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+/* Events */
+.title-event {
+  color: #004f5a;
+  font-family: "Oswald", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .title-event {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .title-event {
+    font-size: 28px;
+  }
+}
+
+.text-event {
+  background: rgba(136, 136, 136, 0.8);
+  margin-bottom: 100px;
+}
+
+.text-events {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Lora" sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .text-events {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .text-events {
+    font-size: 16px;
+  }
+}
+
+.text-bold {
+  color: #2b2c30;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.text-fest {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Lora" sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .text-fest {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .text-fest {
+    font-size: 16px;
+  }
+}
+
+.date-fest {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Lora" sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .date-fest {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .date-fest {
+    font-size: 16px;
+  }
+}
+
+.web-ink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.web-ink:hover {
+  color: #004f5a;
+}
+
+.web-ink:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.info-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .info-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.info-icons i {
+  margin-top: 20px;
+  font-size: 23px;
+  color: #004f5a;
+}
+
+/* End Events */

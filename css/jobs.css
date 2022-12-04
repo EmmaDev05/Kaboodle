@@ -1,0 +1,225 @@
+/* Header */
+.container-fluid.main {
+  position: relative; /* To make the navbar positions relative to this container */
+  padding: 0;
+}
+.carousel .background {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+@media (max-width: 991px) {
+  .carousel .background {
+    background-size: cover; /* To make the background image looks good */
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .carousel .background {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+  }
+}
+.carousel .background.f {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../images/jobs/businessDevelExec.jpg");
+}
+.carousel .background.g {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../images/jobs/CDG_blog_post_image_01-850x412.jpg");
+}
+.carousel .background.h {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../images/jobs/ui-ux-scaled.jpg");
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition: opacity 0.7s; /* The 0.5s describes the duration to make the opacity from 0 to 1 */
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+/* CSS Hack to trigger GPU for smooth transition */
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slide__content img {
+  width: auto;
+  background-color: #000;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .slide__content img {
+    width: 240px;
+    height: 50px;
+  }
+}
+
+/* End Header */
+
+/* About */
+
+#about {
+  padding-top: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/jobs/AdobeStock_241083104-1400x934.webp") no-repeat center
+      center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50vmax;
+}
+
+#about:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  #about {
+    padding-top: 0;
+    height: 140vmax;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  #about {
+    height: 80vmax;
+  }
+}
+
+.us {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Lora" sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .us {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .us {
+    font-size: 16px;
+  }
+}
+
+/* End About */
+
+/* Work with Us */
+
+.cards-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  width: auto;
+  height: 250px;
+  border-radius: 25px;
+}
+
+.cards-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/jobs/businessDevelExec.jpg") no-repeat center center / cover;
+}
+
+.cards-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/jobs/ClientExecutive.jpg") no-repeat center center / cover;
+}
+
+.cards-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/jobs/CustomerOperationsAdviser.jpg") no-repeat center center /
+      cover;
+}
+
+.cards-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/work/images\ \(1\).jpg") no-repeat center center / cover;
+}
+
+.cards-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/work/images\ \(1\).jpg") no-repeat center center / cover;
+}
+
+.cards-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/work/images2.jpg") no-repeat center center / cover;
+}
+
+.cards-7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/work/images2.jpg") no-repeat center center / cover;
+}
+
+.cards-8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/work/images2.jpg") no-repeat center center / cover;
+}
+
+.cards-9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/work/good-ux-design-examples.jpg") no-repeat center center /
+      cover;
+}
+
+.title-job {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lora", serif;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .title-job {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .title-job {
+    font-size: 18px;
+  }
+}
+
+/* End Work with Us */

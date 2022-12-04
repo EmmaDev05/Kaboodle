@@ -1,0 +1,266 @@
+#fest1 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Festivals/cards/mhbw23-1900x550-kaboodle-header.png")
+      no-repeat center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+#fest1:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#fest2 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Festivals/cards/snowbombing-tile.png") no-repeat center
+      center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#fest2:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#fest3 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Festivals/cards/wa-2023-400x300.png") no-repeat center center /
+      cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#fest3:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#fest4 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Festivals/cards/w23-kaboodle-03.png") no-repeat center center /
+      cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#fest4:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#fest5 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Festivals/cards/mh23-400x300.png") no-repeat center center /
+      cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#fest5:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+#fest6 {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../images/Festivals/cards/1663746064_xtt-thumbnail.jpg") no-repeat
+      center center / cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#fest6:before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+/* Events */
+.title-event {
+  color: #004f5a;
+  font-family: "Oswald", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .title-event {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .title-event {
+    font-size: 28px;
+  }
+}
+
+.text-event {
+  background: rgba(136, 136, 136, 0.8);
+  /* background: rgba(188, 204, 220, 0.9); */
+  margin-bottom: 100px;
+}
+
+.text-events {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Lora" sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .text-events {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .text-events {
+    font-size: 16px;
+  }
+}
+
+.text-bold {
+  color: #de4948;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.text-fest {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Lora" sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .text-fest {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .text-fest {
+    font-size: 16px;
+  }
+}
+
+.date-fest {
+  color: #fff;
+  font-size: 22px;
+  font-family: "Lora" sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .date-fest {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .date-fest {
+    font-size: 16px;
+  }
+}
+
+.web-ink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.web-ink:hover {
+  color: #004f5a;
+}
+
+.web-ink:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.info-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (min-width: 280px) and (max-width: 750px) {
+  .info-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.info-icons i {
+  margin-top: 20px;
+  font-size: 23px;
+  color: #004f5a;
+}
+
+/* End Events */

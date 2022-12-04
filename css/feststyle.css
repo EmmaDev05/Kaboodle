@@ -1,0 +1,218 @@
+/* Header */
+.container-fluid.main {
+  position: relative;
+  padding: 0;
+}
+.carousel .background {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+@media (max-width: 991px) {
+  .carousel .background {
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .carousel .background {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+  }
+}
+.carousel .background.i {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../images/Festivals/cards/noel-gallagher-2000x1270-1-2.jpeg");
+}
+.carousel .background.l {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../images/Festivals/cards/southfacing2023-craigdavid-1x1.jpg");
+}
+.carousel .background.m {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../images/Festivals/cards/1663746064_xtt-thumbnail.jpg");
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slide__content img {
+  width: auto;
+  background-color: #000;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .slide__content img {
+    width: 240px;
+    height: 50px;
+  }
+}
+
+/* End Header */
+
+.cards-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  width: auto;
+  height: 250px;
+  border-radius: 25px;
+}
+
+.cards-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/mhbw23-400x300-statictile.png") no-repeat
+      center center / cover;
+}
+
+.cards-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/snowbombing-tile.png") no-repeat center
+      center / cover;
+}
+
+.cards-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/wa-2023-400x300.png") no-repeat center center /
+      cover;
+}
+
+.cards-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/w23-kaboodle-03.png") no-repeat center center /
+      cover;
+}
+
+.cards-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/mh23-400x300.png") no-repeat center center /
+      cover;
+}
+
+.cards-6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/1663746064_xtt-thumbnail.jpg") no-repeat
+      center center / cover;
+}
+
+.cards-7 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/noisily-logo-2017-01.png") no-repeat center
+      center / cover;
+}
+
+.cards-8 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/generic-400x300.jpg") no-repeat center center /
+      cover;
+}
+
+.cards-9 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/sc22-tile.jpg") no-repeat center center /
+      cover;
+}
+
+.cards-10 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/download.jpg") no-repeat center center /
+      cover;
+}
+
+.cards-11 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/noel-gallagher-2000x1270-1-2.jpeg") no-repeat
+      center center / cover;
+}
+
+.cards-12 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/rudimental-400x300.jpg") no-repeat center
+      center / cover;
+}
+
+.cards-13 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/bt2023-kaboodle-thumbnail-400x300px-1-.jpg")
+      no-repeat center center / cover;
+}
+
+.cards-14 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/southfacing2023-craigdavid-1x1.jpg")
+      no-repeat center center / cover;
+}
+
+.cards-15 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/stormzy-ticketing2.jpg") no-repeat center
+      center / cover;
+}
+
+.cards-16 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/f63c9ef8-6682-455c-8a8b-7547a2ed9e29.jpeg")
+      no-repeat center center / cover;
+}
+
+.cards-17 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/vf-kaboodle-thumbnail.png") no-repeat center
+      center / cover;
+}
+.cards-18 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../images/Festivals/cards/mw2022-tile.png") no-repeat center center /
+      cover;
+}
+
+.title-job {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Lora", serif;
+  /* font-weight: bold; */
+}
+
+.title-job b {
+  color: #de4948;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* End Work with Us */

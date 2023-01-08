@@ -1,3 +1,251 @@
+/*Common Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+}
+
+/* 62.5% of 16px is 10px */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgba(188, 204, 220, 0.2);
+  font-family: "Oswald", sans-serif;
+  font-family: "Lora", sans-serif;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  color: #de4948;
+  text-align: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .title {
+    font-size: 38px;
+  }
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #de4948;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  h2 {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  color: #de4948;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  h3 {
+    font-size: 28px;
+  }
+}
+
+.social-links h3 {
+  margin: 15px auto;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  font-size: 34px;
+  color: #de4948;
+}
+
+h5 {
+  font-family: "Oswald", sans-serif;
+  color: #2b2c30;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  h5 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  h5 {
+    font-size: 24px;
+  }
+}
+
+p {
+  color: #2b2c30;
+  font-size: 22px;
+  font-family: "Lora" sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #2b2c30;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Lora", serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* End Common Style */
+
+/* Social Icons */
+
+.fa-facebook-f,
+.fa-instagram {
+  transition: color 0.2s;
+  padding-top: 12px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #999999;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.fa-facebook-f:hover,
+.fa-instagram:hover {
+  transition: color 0.2s;
+  background-color: #000;
+  color: #bcccdc;
+}
+
+/* End Social Icons */
+
+/* Button */
+
+.btn {
+  background: #fff;
+  width: 100px;
+  border-radius: 25px;
+  box-shadow: 5px 8px 18px #000;
+  transition: all 0.2s;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background: #004f5a;
+  color: #fff;
+}
+
+.btn > a:hover {
+  color: #fff;
+  width: auto;
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .btn {
+    margin-top: 30px;
+    width: 80px;
+  }
+}
+/* End Button */
+
+/* Footer */
+footer {
+  background-color: #004f5a;
+}
+
+.foot {
+  font-size: 22px;
+  font-family: "Lora", serif;
+  margin: 25px 0;
+  padding: 0;
+  color: #2b2c30;
+  line-height: 28px;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  .foot {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .foot {
+    font-size: 16px;
+  }
+}
+
+.sign span {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Lora", sans-serif;
+}
+
+.social-links a:link,
+.social-links a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #fff;
+  transform: color 0.2s;
+}
+
+.addr {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Lora", serif;
+}
+
+/* End of Footer */
+
 #event1 {
   padding-top: 70px;
   padding-bottom: 30px;
